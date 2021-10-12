@@ -1,0 +1,23 @@
+Diese Seite soll nur von mir handeln und mich als Webdesigner und Programmierer vorstellen.
+Für diese Seite benötige ich eigentlich gar kein Javascript, sondern nur HTML und CSS.
+Die Seite sollte sehr künstlerisch sein und nur eine Kontaktmöglichkeit bieten.
+Ich stelle mich als Webdesigner und als Full-Stack Entwickler vor.
+Die Stimmung auf der Seite sollte folgenden Adjektiven folgen:
+leidenschaflich, emotional, direkt, professionell, warm, persönlich, willkommend
+Anfangs sollte nur folgendes zu sehen sein:
+Überschrift: Ich bin Andi Kerschensteiner (oder Schmidt)
+Unterüberschrift: Ein Programmierer und Webdesigner
+Dann möchte ich vorstellen, was ich kann.
+- Es sollen kurze Texte und Icons präsentiert werden, welche dem Webdesign entsprechen.
+- Folgende Themen sollten aufgegriffen werden: Front-End, Hochwertiges Design, Interaktive Seiten, Backend, Datenbanken, Sicherheit, Modernste Standards
+- Weitere Aspekte: Intuition, Performence, Reponsiveness, UX, UI
+- Kurzes Kontaktformular, wobei es die Möglichkeit gibt E-Mails an mich zu versenden.
+- Footer mit Impressum
+
+Möglicherweise möchte ich auch auf meine GibHub Seite verlinken, je nachdem, was ich bis dahin über GitHub mache.
+
+Mögliche Farben:
+#A2D2FF
+#FEF9EF
+#FF865E
+#FEE440
