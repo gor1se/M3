@@ -59,7 +59,7 @@ section {
 
 .card-left img {
     float: left;
-    margin-right: 1rem;
+    margin: 1rem 1rem 0 1rem;
     background-color: #FEF9EF;
     border-radius: 100%;
     width: auto;
@@ -80,7 +80,7 @@ section {
 
 .card-right img {
     float: right;
-    margin-left: 1rem;
+    margin: 1rem 1rem 0 1rem;
     background-color: #FEF9EF;
     border-radius: 100%;
     width: auto;
@@ -90,4 +90,58 @@ section {
 .card p,
 .card h3 {
     padding: 7px;
+}
+
+@media(max-width: 1800px) {
+    .card-left img {
+        margin: 1.6rem 1rem 1.6rem 1rem;
+    }
+    .card-right img {
+        margin: 1.6rem 1rem 1.6rem 1rem;
+    }
+}
+
+@media(max-width: 1330px) {
+    .card-right,
+    .card-left {
+        width: 66.67%;
+    }
+}
+
+@media(max-width: 1088px) {
+    .card-left img {
+        margin: 3.2em 1rem 3.2rem 1rem;
+    }
+    .card-right img {
+        margin: 3.2rem 1rem 3.2rem 1rem;
+    }
+}
+
+@media(max-width: 1088px) {
+    .card-left img,
+    .card-left {
+        text-align: center;
+        float: none;
+        margin: .5rem auto 0 auto;
+    }
+    .card-left {
+        margin-top: 2rem;
+        width: 75%;
+    }
+    .card-right img,
+    .card-right {
+        text-align: center;
+        float: none;
+        margin: 2rem auto 0 auto;
+    }
+    .card-right {
+        margin-top: 2rem;
+        width: 75%;
+    }
+}
+
+@media(max-width: 720px) {
+    header>h1 {
+        font-size: 4.4rem;
+    }
 }
