@@ -6,12 +6,14 @@
  */
 
 * {
-    text-align: center;
     padding: 0;
     margin: 0;
+    font-family: 'Montserrat';
+    box-sizing: border-box;
 }
 
 header {
+    text-align: center;
     width: 100%;
     height: 100vh;
     background-color: #FEE440;
@@ -19,7 +21,7 @@ header {
 
 header>h1 {
     font-family: 'Ephesis';
-    font-size: 3.8rem;
+    font-size: 5.8rem;
     padding-top: 10rem;
 }
 
@@ -30,6 +32,62 @@ header>h2 {
 }
 
 section {
-    background-color: #A2D2FF;
+    background-color: #FEF9EF;
     height: 400px;
+}
+
+.mid-container>h2 {
+    text-align: center;
+    font-weight: 400;
+}
+
+.mid-container>h3 {
+    text-align: center;
+}
+
+.card-left {
+    text-align: left;
+    line-height: 1.6;
+    background-color: #A2D2FF;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border-radius: 25px;
+    margin-top: 2rem;
+}
+
+.card-left img {
+    float: left;
+    margin-right: 1rem;
+    background-color: #FEF9EF;
+    border-radius: 100%;
+    width: auto;
+    height: 5rem;
+}
+
+.card-right {
+    text-align: left;
+    line-height: 1.6;
+    background-color: #A2D2FF;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border-radius: 25px;
+    margin-top: 2rem;
+}
+
+.card-right img {
+    float: right;
+    margin-left: 1rem;
+    background-color: #FEF9EF;
+    border-radius: 100%;
+    width: auto;
+    height: 5rem;
+}
+
+.card p,
+.card h3 {
+    padding: 7px;
 }
