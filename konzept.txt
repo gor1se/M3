@@ -21,3 +21,6 @@ Mögliche Farben:
 #FEF9EF
 #FF865E
 #FEE440
+
+vor dem Kontaktformular, möchte ich noch ein Element einbauen in dem ich einige Meiner Projekte vorstelle. Unter anderem sollen dort schöne Designs und zusätzlich Anspruchsvolle Sachen zu
+finden sein wie beispielsweise die Tipp oder auch die Kopfrechenseite.
