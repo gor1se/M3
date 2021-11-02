@@ -15,6 +15,7 @@
 
 body {
     background-color: #eee;
+    position: relative;
 }
 
 nav *,
@@ -23,7 +24,7 @@ nav {
 }
 
 .top-container {
-    min-height: 1280px;
+    min-height: 100vh;
     background-image: url(images/man-g6ee57db4e_1920.jpg);
     background-size: 100% 1080px;
     background-repeat: no-repeat;
@@ -68,7 +69,7 @@ footer p {
 /* ABOUT SECTION */
 
 #about {
-    margin: 1rem 2rem 1rem 2rem;
+    margin: 3rem 2rem 1rem 2rem;
     background-color: #fff;
 }
 
@@ -127,6 +128,20 @@ footer p {
     margin-top: 2rem;
 }
 
+.work-content {
+    background-color: #fff;
+    box-shadow: 0px 10px 5px #bbb;
+    margin-bottom: 2rem;
+    position: relative;
+    padding: 1rem;
+}
+
+.w-like {
+    position: absolute;
+    bottom: 5px;
+    right: 2rem;
+}
+
 
 /* Kontakt */
 
@@ -153,16 +168,54 @@ footer {
     text-align: center;
 }
 
+.list-ico {
+    list-style-type: none;
+    padding: 1rem;
+}
+
+.list-ico span {
+    font-size: 1rem;
+    color: rgb(12, 97, 254);
+    padding: .4rem;
+}
+
+.list-sco {
+    list-style-type: none;
+    text-align: center;
+}
+
+.list-sco span {
+    color: #000;
+}
+
+.list-sco li {
+    text-align: center;
+    padding: 1rem;
+    display: inline-block;
+    color: #000;
+}
+
+.btn-contact {
+    padding: .6rem;
+    border-radius: 8px;
+    border: 1px solid #000;
+    margin: 1rem;
+}
+
+.btn-contact:hover {
+    background-color: #000 !important;
+    color: #fff;
+}
+
 
 /* 
 Inspiration
 https://bootstrapmade.com/demo/DevFolio/
 
 Noch zu erledigen: 
-- Texte
+
 - Links
-- Referenzen Teil
-- Kontakt Teil
+- Inhalte überarbeiten
 - Responsive Design
 - Foto ändern bzw. hinzufügen
 - Design überprüfen + Finetuning
