@@ -23,9 +23,19 @@ nav {
     background-color: #000;
 }
 
+.active {
+    color: #fff !important;
+    background-color: #000 !important;
+    text-decoration: underline #fff 5px;
+}
+
+a.nav-link:hover {
+    text-decoration: none;
+}
+
 .top-container {
     min-height: 100vh;
-    background-image: url(images/man-g6ee57db4e_1920.jpg);
+    background-image: url(images/FA09B149-3A2B-42BA-A290-0FC7750788E1_1_201_a.jpeg);
     background-size: 100% 1080px;
     background-repeat: no-repeat;
     position: relative;
@@ -35,13 +45,13 @@ nav {
 .top-container>h1 {
     position: absolute;
     right: 100px;
-    top: 450px;
+    top: 300px;
 }
 
 .top-container>h2 {
     position: absolute;
     right: 100px;
-    top: 500px;
+    top: 350px;
 }
 
 footer {
@@ -214,11 +224,15 @@ https://bootstrapmade.com/demo/DevFolio/
 
 Noch zu erledigen: 
 
-- Links
 - Inhalte überarbeiten
 - Responsive Design
-- Foto ändern bzw. hinzufügen
+    - Navbar Button 
+    - Titelbild und Text, Skallierung in Breite sollte aufgehoben werden
+    - Projektcounter skalliert nicht. Evtl. so lassen.
+- Kontaktformular
+    - So bearbeiten, dass direkt E-Mails versendet werden
 - Design überprüfen + Finetuning
+- Dateien überprüfen (nötig/unnötig) ggf. löschen
 - Finale abnahme
 
 */
