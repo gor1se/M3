@@ -35,11 +35,79 @@ a.nav-link:hover {
 
 .top-container {
     min-height: 100vh;
+    background-color: #000;
     background-image: url(images/FA09B149-3A2B-42BA-A290-0FC7750788E1_1_201_a.jpeg);
-    background-size: 100% 1080px;
+    background-size: 100% auto;
     background-repeat: no-repeat;
     position: relative;
     color: #fff;
+}
+
+@media(max-width: 1400px) {
+    .top-container>h1 {
+        max-height: 100px;
+        position: absolute;
+        left: 100px;
+        bottom: 100px;
+        padding-top: 520px;
+    }
+    .top-container>h2 {
+        max-height: 100px;
+        position: absolute;
+        left: 100px;
+        bottom: 0px;
+        padding-top: 520px;
+    }
+}
+
+@media(max-width: 992px) {
+    .top-container>h1 {
+        max-height: 100px;
+        position: absolute;
+        left: 100px;
+        bottom: 100px;
+        padding-top: 420px;
+    }
+    .top-container>h2 {
+        max-height: 100px;
+        position: absolute;
+        left: 100px;
+        bottom: 0px;
+        padding-top: 420px;
+    }
+}
+
+@media(max-width: 768px) {
+    .top-container>h1 {
+        max-height: 100px;
+        position: absolute;
+        font-size: 32px;
+        padding-top: 420px;
+    }
+    .top-container>h2 {
+        max-height: 100px;
+        position: absolute;
+        font-size: 24px;
+        padding-top: 420px;
+    }
+}
+
+@media(max-width: 576px) {
+    .top-container>h1 {
+        max-height: 100px;
+        position: absolute;
+        font-size: 24px;
+        padding-top: 420px;
+    }
+    .top-container>h2 {
+        max-height: 100px;
+        position: absolute;
+        font-size: 16px;
+        padding-top: 440px;
+    }
+    h2.s-title {
+        font-size: 24px;
+    }
 }
 
 .top-container>h1 {
@@ -224,11 +292,9 @@ https://bootstrapmade.com/demo/DevFolio/
 
 Noch zu erledigen: 
 
-- Inhalte überarbeiten
 - Responsive Design
-    - Navbar Button 
-    - Titelbild und Text, Skallierung in Breite sollte aufgehoben werden
-    - Projektcounter skalliert nicht. Evtl. so lassen.
+    - Navbar Button
+- Counter funktioniert nicht
 - Kontaktformular
     - So bearbeiten, dass direkt E-Mails versendet werden
 - Design überprüfen + Finetuning
